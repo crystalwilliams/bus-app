@@ -1,5 +1,20 @@
-<h1>New Location</h1>
+<div class="jumbotron text-center">
+  <h1>Get A Bus</h1>
+</div>
 
-<%= render 'form', location: @location %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8  col-md-offset-2
+                col-sm-8  scol-sm-offset-2
+                col-xs-10 col-xs-offset-1">
+      <h3 class="text-center">
+        Please enter an address or street corner and we'll let you know if there is a bus nearby.
+      </h3>
 
-<%= link_to 'Back', locations_path %>
+      <%= render 'form', location: @location %>
+    </div>
+  </div>
+</div
+
+
+

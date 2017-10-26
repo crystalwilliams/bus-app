@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'find-me-a-bus' => 'locations#new'
+
   resources :locations
 
   root 'locations#new'
