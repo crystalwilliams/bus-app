@@ -42,6 +42,9 @@ gem 'jquery-rails'
 # Geocoding Address
 gem 'geocoder'
 
+# secrets
+gem 'figaro'
+
 
 
 group :development, :test do
